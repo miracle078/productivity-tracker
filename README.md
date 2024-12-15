@@ -44,8 +44,8 @@ This system integrates Internet of Things (IoT) technologies and advanced data a
 ### **Local Environment**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/productivity-health-tracker.git
-   cd productivity-health-tracker
+   git clone https://github.com/miracle078/productivity-tracker.git
+   cd productivity-tracker
    ```
 
 2. Install dependencies:
@@ -66,18 +66,17 @@ This system integrates Internet of Things (IoT) technologies and advanced data a
 2. Authenticate:
    - Run the authentication script to generate a `token.json` file:
      ```bash
-     python authenticate_google_fit.py
+     python google_fit_export.py
      ```
 
 3. Fetch health metrics:
-   ```bash
-   python fetch_googlefit_data.py
-   ```
+
+These get fetched right after authentication is complete.
 
 ### **AWS Deployment**
 1. Build and deploy the Flask app:
    ```bash
-   docker build -t flask-keyboard-app .
+   docker build -t flask-keyboard-app
    docker run -d -p 5000:5000 flask-keyboard-app
    ```
 2. Access the dashboard at `http://<AWS_INSTANCE_PUBLIC_IP>:5000`.
