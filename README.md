@@ -12,7 +12,7 @@ This system integrates Internet of Things (IoT) technologies and advanced data a
 - **Real-Time Data Synchronization**: Combines local data from keyboard/mouse logging with health metrics fetched from Google Fit.
 - **Visualization Dashboard**: Displays insights on productivity trends and health metrics through an AWS-hosted dashboard.
 
-### **Advanced Features**
+### **Advanced and Future Features**
 - **Data Correlation**: Identifies relationships between productivity and health indicators.
 - **Predictive Analytics**: Forecasts productivity trends based on historical data.
 - **Anomaly Detection**: Flags unusual deviations in health or productivity patterns for proactive interventions.
